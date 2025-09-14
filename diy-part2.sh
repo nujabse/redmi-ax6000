@@ -46,9 +46,9 @@ git clone https://github.com/leshanydy2022/adguardhome.git feeds/packages/net/ad
 
 # ---------------------------------------------------------------
 ## OpenClash
-# git clone -b v0.46.086 --depth=1 https://github.com/vernesong/openclash.git OpenClash
-# rm -rf feeds/luci/applications/luci-app-openclash
-# mv OpenClash/luci-app-openclash feeds/luci/applications/luci-app-openclash
+git clone --depth=1 https://github.com/vernesong/openclash.git OpenClash
+rm -rf feeds/luci/applications/luci-app-openclash
+mv OpenClash/luci-app-openclash feeds/luci/applications/luci-app-openclash
 # ---------------------------------------------------------------
 
 # ##------------- meta core ---------------------------------
